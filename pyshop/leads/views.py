@@ -8,3 +8,6 @@ def index(request):
 
 def new(request):
     return HttpResponse('New lead')
+
+def reposicoes(request):
+    return HttpResponse('Repõeeeee poha!')
